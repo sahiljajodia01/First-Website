@@ -1,0 +1,44 @@
+fieldset {
+  background: lightyellow;
+  border: 10px solid yellow ;
+  margin-bottom: 10px;
+  width: 720px
+}
+label {
+  width: 180px;
+  display: inline-block;
+  position: top-right;
+}
+#contact {
+  width:auto;
+}
+#gender {
+  width:auto;
+}
+textarea {
+  width: 360px;
+  height: 50px;
+}
+label:hover {font-size: 20px;}
+input:hover {font-size: 20px;}
+legend:hover {font-size: 20px;}
+legend {
+  font-family: sans-serif;
+}
+h1 {
+  position: relative;
+  background-color: #00A0B0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 40px;
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+}
+form {
+  padding-left: 415px;
+}
+input[type="submit"] {
+  background-color: red;
+  color: white;
+}
